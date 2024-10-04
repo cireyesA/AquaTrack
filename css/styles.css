@@ -1,0 +1,83 @@
+.logo img {
+    width: 150px; /* Cambia este valor según el tamaño que desees */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.slogan {
+    color: #000; /* Cambia a negro u otro color oscuro */
+    font-size: 24px; /* Ajusta el tamaño según lo necesario */
+    font-weight: bold; /* Para hacerlo más visible */
+    text-align: center; /* Centrar el texto */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #005b96;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    height: 90vh;
+    background: url('../images/water-background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #ff5733;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#features {
+    padding: 50px;
+    background-color: white;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature {
+    width: 30%;
+    padding: 20px;
+    background-color: #005b96;
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #005b96;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
